@@ -7,6 +7,7 @@ An interactive U.S. geography game built with Python and the Turtle module. Play
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Skills & Concepts](#skills--concepts)
 - [Author](#author)
@@ -23,6 +24,19 @@ A map-based educational game where users identify U.S. states. Correct answers a
 - Saves unguessed states to `states_to_learn.csv`
 - Clean, modular, beginner-friendly code structure
 
+## Requirements
+- Python 3.10 or higher  
+- pandas library  
+- The Turtle graphics module (included with Python)  
+- `50_states.csv` dataset  
+- `blank_states_img.gif` map file
+
+Install pandas if needed:
+
+```bash
+pip install pandas
+```
+
 ## Installation
 Open terminal (Linux/Mac) or PowerShell/Command Prompt (Windows):
 
@@ -36,6 +50,7 @@ python3 main.py
 # Windows:
 python main.py
 ```
+
 ## Skills & Concepts
 -Python programming fundamentals
 -Working with CSV data using pandas
@@ -43,6 +58,7 @@ python main.py
 -Basic GUI using Turtle graphics
 -File creation for missed-state learning
 -Clean code structuring and commenting
+
 
 ## Author:
 **Hamidreza Mirzaei Danaloo**
