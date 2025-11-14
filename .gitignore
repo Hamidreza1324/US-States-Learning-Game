@@ -1,0 +1,25 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+
+# Environment folders
+venv/
+.env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+*.iml
+*.vscode/
+
+# Generated game files
+states_to_learn.csv
